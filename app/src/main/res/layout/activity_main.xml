@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bmr3"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/getStart"
+        android:layout_width="335dp"
+        android:layout_height="61dp"
+        android:layout_x="30dp"
+        android:layout_y="625dp"
+        android:backgroundTint="#D96220"
+        android:text="Get Started"
+        android:textSize="20sp"
+        app:cornerRadius="25dp" />
+
+    <Button
+        android:id="@+id/aboutBmr"
+        android:layout_width="335dp"
+        android:layout_height="61dp"
+        android:layout_x="30dp"
+        android:layout_y="689dp"
+        android:backgroundTint="#D96220"
+        android:text="about bmr"
+        android:textSize="20sp"
+        app:cornerRadius="25dp" />
+
+</AbsoluteLayout>

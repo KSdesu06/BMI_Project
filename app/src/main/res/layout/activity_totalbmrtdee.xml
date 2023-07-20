@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bmrbg"
+    tools:context=".totalBMRTDEE">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_x="17dp"
+        android:layout_y="110dp"
+        android:text="     เมื่อได้ค่า BMR และค่า TDEE แล้วจะรู้ได้ว่าในแต่ละวันควรได้รับพลังงาน และออกกำลังกายอย่างเหมาะสม น้ำหนักควรลงที่ 1.8 - 3.6 กก./เดือน แนะนำไม่ให้อดอาหาร เพราะอาจส่งผลกระทบต่อสุขภาพได้"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/calculate3"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_x="139dp"
+        android:layout_y="497dp"
+        android:backgroundTint="#da6220"
+        android:text="คำนวณ"
+        android:textSize="20sp"
+        app:cornerRadius="25dp" />
+
+    <EditText
+        android:id="@+id/targetWeight"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_x="51dp"
+        android:layout_y="288dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="50dp"
+        android:layout_y="260dp"
+        android:fontFamily="sans-serif"
+        android:includeFontPadding="false"
+        android:text="เป้าหมาย : น้ำหนักตัวที่ต้องการ(kg.)"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="51dp"
+        android:layout_y="370dp"
+        android:fontFamily="sans-serif"
+        android:includeFontPadding="false"
+        android:text="จำนวนวัน (ที่ออกกำลังกาย)"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/days"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_x="51dp"
+        android:layout_y="401dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="17dp"
+        android:layout_y="73dp"
+        android:text="Step 3 : ต้องกินกี่แคลดีนะ?"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/back3Btn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="16dp"
+        android:backgroundTint="@android:color/transparent"
+        android:text="BACK"
+        android:textColor="#020101"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:icon="?attr/homeAsUpIndicator"
+        app:iconTint="#000000" />
+
+</AbsoluteLayout>

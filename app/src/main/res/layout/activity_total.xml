@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgtatal2"
+    tools:context=".total">
+
+    <Button
+        android:id="@+id/recal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="53dp"
+        android:layout_y="610dp"
+        android:backgroundTint="#da6220"
+        android:text="คำนวณอีกครั้ง"
+        android:textSize="16sp"
+        app:cornerRadius="25dp" />
+
+    <Button
+        android:id="@+id/goHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="215dp"
+        android:layout_y="610dp"
+        android:backgroundTint="#da6220"
+        android:text="กลับหน้าแรก"
+        android:textSize="16sp"
+        app:cornerRadius="25dp" />
+
+    <Button
+        android:id="@+id/back4Btn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="16dp"
+        android:backgroundTint="@android:color/transparent"
+        android:text="BACK"
+        android:textColor="#020101"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:icon="?attr/homeAsUpIndicator"
+        app:iconTint="#000000" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_x="102dp"
+        android:layout_y="450dp"
+        android:fontFamily="sans-serif"
+        android:includeFontPadding="false"
+        android:text="พลังงานที่แนะนำ : ต่อวัน (kcal)"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_x="105dp"
+        android:layout_y="517dp"
+        android:fontFamily="sans-serif"
+        android:hint="รวม"
+        android:includeFontPadding="false"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="34sp"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_x="105dp"
+        android:layout_y="354dp"
+        android:fontFamily="sans-serif"
+        android:hint="รวม"
+        android:includeFontPadding="false"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="150dp"
+        android:layout_y="302dp"
+        android:fontFamily="sans-serif"
+        android:includeFontPadding="false"
+        android:text="ค่า TDEE"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_x="105dp"
+        android:layout_y="190dp"
+        android:fontFamily="sans-serif"
+        android:hint="รวม"
+        android:includeFontPadding="false"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="125dp"
+        android:layout_y="142dp"
+        android:fontFamily="sans-serif"
+        android:includeFontPadding="false"
+        android:text="ค่า BMR (kcal)"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="24sp" />
+</AbsoluteLayout>

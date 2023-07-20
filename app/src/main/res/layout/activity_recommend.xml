@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bmrbg"
+    tools:context=".recommend">
+
+    <Button
+        android:id="@+id/back4Btn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="16dp"
+        android:backgroundTint="@android:color/transparent"
+        android:text="BACK"
+        android:textColor="#020101"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:icon="?attr/homeAsUpIndicator"
+        app:iconTint="#000000" />
+
+    <ScrollView
+        android:layout_width="413dp"
+        android:layout_height="637dp"
+        android:layout_marginBottom="70dp"
+        android:layout_x="3dp"
+        android:layout_y="75dp">
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="17dp"
+                android:layout_y="27dp"
+                android:text="BMR คืออะไร? มาทำความรู้จักกัน!"
+                android:textColor="@color/dark_orange"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="27dp"
+                android:layout_y="87dp"
+                android:text="BMR หรือ Basal Metabolic Rate "
+                android:textColor="@color/dark_blue"
+                android:textSize="18.5sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_x="37dp"
+                android:layout_y="117dp"
+                android:text="      คือปริมาณแคลอรีเฉลี่ยที่ร่างกายต้องการใช้ในแต่ละวันเพื่อใช้ในกิจกรรมที่จำเป็น เช่น การหายใจ การสูบฉีดเลือด การสร้างฮอร์โมน และอื่น ๆ"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="27dp"
+                android:layout_y="227dp"
+                android:text="วิธีการคำนวณ BMR"
+                android:textColor="@color/dark_blue"
+                android:textSize="18.5sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_x="37dp"
+                android:layout_y="257dp"
+                android:text="      ● ผู้หญิง BMR = [655 + (9.6 X น้ำหนักตัว) + (8 x ส่วนสูง) ]– (4.7 x อายุ"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_x="37dp"
+                android:layout_y="307dp"
+                android:text="      ● ผู้ชาย BMR = [66 + (13.7 X น้ำหนักตัว) + (5 x ส่วนสูง)] – (8 x อายุ)"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="27dp"
+                android:layout_y="372dp"
+                android:text="TDEE (Total Daily Energy Expenditure)"
+                android:textColor="@color/dark_blue"
+                android:textSize="18.5sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_x="37dp"
+                android:layout_y="402dp"
+                android:text="      คือการใช้พลังงานทั้งหมดในแต่ละวันที่คุณเผาผลาญตลอดทั้งวันโดยพิจารณาจากน้ำหนัก ส่วนสูง อายุ และระดับกิจกรรมของคุณ"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="27dp"
+                android:layout_y="512dp"
+                android:text="วิธีการคำนวณ TDEE"
+                android:textColor="@color/dark_blue"
+                android:textSize="18.5sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_x="37dp"
+                android:layout_y="542dp"
+                android:text="      ● นั่งทำงานอยู่กับที่ และไม่ได้ออกกำลังกายเลย : BMR x 1.2"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_x="37dp"
+                android:layout_y="592dp"
+                android:text="      ● ออกกำลังกายหรือเล่นกีฬาเล็กน้อย ประมาณอาทิตย์ละ 1-3 วัน : BMR x 1.375"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_x="37dp"
+                android:layout_y="642dp"
+                android:text="      ● ออกกำลังกายหรือเล่นกีฬาปานกลาง ประมาณอาทิตย์ละ 1-3 วัน : BMR x 1.55"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_x="37dp"
+                android:layout_y="692dp"
+                android:text="      ● ออกกำลังกายหรือเล่นกีฬาอย่างหนัก ประมาณอาทิตย์ละ 6-7 วัน : BMR x 1.725"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_x="37dp"
+                android:layout_y="742dp"
+                android:text="      ● ออกกำลังกายหรือเล่นกีฬาอย่างหนักมาก ทุกวันเช้า และเย็น : BMR x 9"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_x="37dp"
+                android:layout_y="810dp"
+                android:text="      เมื่อรู้ถึงปริมาณค่า BMR และ TDEE แล้ว ถึงเวลากำหนดเป้าหมายของคุณว่าน้ำหนักที่ต้องการนั้นเป็นอย่างไร เพื่อคำนวณปริมาณพลังงานที่ควรได้รับอย่างถูกต้อง"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+
+        </AbsoluteLayout>
+    </ScrollView>
+</AbsoluteLayout>
+
